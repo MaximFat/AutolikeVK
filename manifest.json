@@ -1,0 +1,25 @@
+
+{
+  "manifest_version": 3,
+  "name": "VK AutoLiker",
+  "version": "1.1",
+  "description": "Automatically likes posts on VK.com with custom settings",
+  "permissions": ["scripting", "storage", "tabs"],
+  "host_permissions": ["https://vk.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
